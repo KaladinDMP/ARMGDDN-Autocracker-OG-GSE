@@ -1,7 +1,5 @@
 # ARMGDDN Autocracker 🎮🔧
 
-![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/364d5a3f-1a83-450f-94e0-11018227d8c1)
-
 ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you crack and prepare Steam games for an unparalleled gaming experience. With its user-friendly interface and powerful features, ARMGDDN Autocracker empowers gamers and enthusiasts to effortlessly unlock the full potential of their favorite games. 
 
 **WARNING:** This is not a tool for amateurs but rather a tool to make the methods easier for those with a general knowledge of these techniques. You will still need to find the exe that needs its steam stub removed, the steam API that needs cracking, and know when and where a cold client loader or a VD bat is needed. 
@@ -65,7 +63,7 @@ ARMGDDN Autocracker is made possible by the following components and tools:
 - Steamless by Atom0s
 - AppDetails and ISteamApps AppList Steam APIs
 
-ARMGDDN Autocracker is proudly developed by DeliciousMeatPop (AKA KaladinDMP) and George Jefferson, the owners of ARMGDDN Games. George Jefferson wrote the App ID Python script and provided moral support and invaluable insight into testing the program, while DeliciousMeatPop made the heavy mistakes.
+ARMGDDN Autocracker is proudly developed by DeliciousMeatPop and George Jefferson, the owners of ARMGDDN Games. George Jefferson wrote the App ID Python script and provided moral support and invaluable insight into testing the program, while DeliciousMeatPop made the heavy mistakes.
 
 ## 💡 Where to get the required components
 To set up your own ARMGDDN Autocracker, you'll need the Goldberg Steam Emulator, the Goldberg Cold Client Loader, a highly edited Goldberg Python Steam App ID fetching script, and the Steamless program. Here are the locations where you can find these components without our edits:
@@ -77,7 +75,7 @@ To set up your own ARMGDDN Autocracker, you'll need the Goldberg Steam Emulator,
 
 ## 🌟 Support
 
-If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team or post in our rin introduction page
+If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team.
 
 ---
 
