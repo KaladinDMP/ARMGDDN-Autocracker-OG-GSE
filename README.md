@@ -1,5 +1,7 @@
 # ARMGDDN Autocracker 🎮🔧
 
+![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
+
 ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you crack and prepare Steam games for an unparalleled gaming experience. With its user-friendly interface and powerful features, ARMGDDN Autocracker empowers gamers and enthusiasts to effortlessly unlock the full potential of their favorite games. 
 
 **WARNING:** This is not a tool for amateurs but rather a tool to make the methods easier for those with a general knowledge of these techniques. You will still need to find the exe that needs its steam stub removed, the steam API that needs cracking, and know when and where a cold client loader or a VD bat is needed. 
