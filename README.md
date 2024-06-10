@@ -1,6 +1,8 @@
 # ARMGDDN Autocracker 🎮🔧
 
 ![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
+[cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
+
 
 ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you crack and prepare Steam games for an unparalleled gaming experience. With its user-friendly interface and powerful features, ARMGDDN Autocracker empowers gamers and enthusiasts to effortlessly unlock the full potential of their favorite games. 
 
@@ -77,7 +79,7 @@ To set up your own ARMGDDN Autocracker, you'll need the Goldberg Steam Emulator,
 
 ## 🌟 Support
 
-If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team.
+If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team, leave an issue here or on our [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
 
 ---
 
