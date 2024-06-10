@@ -62,7 +62,7 @@ Please note that cracking and modifying game files may violate the terms of serv
 ARMGDDN Autocracker is made possible by the following components and tools:
 
 - Goldberg Experimental Steam Emulator by Mr. Goldberg
-- Goldberg Experimental Steamclient Loader (a cold client loader) by Mr. Goldberg
+- Goldberg Experimental Steamclient Loader by Mr. Goldberg (which is largely based on a  [https://www.github.com/Rat431/ColdAPI_Steam/releases/latest](ColdClient Loader by Rat431 called ColdAPI_Steam)
 - A highly edited Goldberg Python script to generate emulator configuration
 - Steamless by Atom0s
 - AppDetails and ISteamApps AppList Steam APIs
