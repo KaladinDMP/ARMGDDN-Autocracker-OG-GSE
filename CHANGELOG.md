@@ -31,4 +31,4 @@ The day it all began! v1.0.0.0 burst onto the scene, marking the birth of ARMGDD
 **Features**
 - Everything! It's the initial release, after all. 😄
 
-So, there you have it, folks! The ARMGDDN Changelog, where we chronicle the ups, the downs, and the occasional sideways maneuvers of our beloved program. Stay tuned for more thrilling updates as we continue to shape the future of ARMGDDN!
+So, there you have it, folks! The ARMGDDN Autocracker Changelog, where we chronicle the ups, the downs, and the occasional sideways maneuvers of our beloved program. Stay tuned for more thrilling updates as we continue to shape the future of ARMGDDN Autocracker!
