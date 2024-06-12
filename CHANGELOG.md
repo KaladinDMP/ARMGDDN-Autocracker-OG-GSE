@@ -2,6 +2,11 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+
+## **v1.0.2 - 6/12/2024**
+A small but mighty update! We've ironed out some kinks from the previous version and made sure everything is running smoother than ever. Get ready for an even better ARMGDDN Autocracker experience! Sorry about the last update....
+
+
 ## **v1.0.1 - 6/11/2024**
 Hold onto your hats, folks! v1.0.1 is here, and it's packed with more fixes than a handyman's toolbox!
 
