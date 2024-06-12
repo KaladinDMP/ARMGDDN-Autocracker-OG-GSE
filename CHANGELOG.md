@@ -15,7 +15,7 @@ Hold onto your hats, folks! v1.0.1 is here, and it's packed with more fixes than
 - We've embraced the power of three and switched to the more common 3-number version code (X.X.X). Who needs that extra X anyway?
 
 **Behind the Scenes**
-- RAW files have been updated, and a shiny new dev branch is in the works. It's like a secret hideout for all the cool stuff that didn't make it into the release version.
+- RAW files have been updated, and a shiny new dev branch has been created. It's like a secret hideout for all the cool stuff that didn't make it into the release version.
 - We're dreaming big with plans for a database of games and non-games. Imagine a world where everyone contributes to a shared knowledge base, making the app faster and smarter! Also planning on a fork for [GSE fork](https://github.com/otavepto/gbe_fork) compatibility
 
 **Shout-outs**
