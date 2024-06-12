@@ -14,7 +14,7 @@ ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you
 ARMGDDN Autocracker seamlessly integrates with your Windows Explorer, offering convenient context menu commands for both EXE and DLL files.
 **EXE Files:**
  - **ARMGDDN Autocracker:** A menu for all the EXE features in case you want to use more than one option.
- - **ARMGDDN Cold Client:** Prepare your Steam game for use with the Cold Clien Loader.
+ - **ARMGDDN Cold Client:** Prepare your Steam game for use with the Cold Client Loader.
  - **ARMGDDN Steam Stub Remover:** Effortlessly check for and remove Steam stubs from your game EXEs.
  - **ARMGDDN VD Batmaker:** Generate VD bat files optimized for Virtual Desktop owners (VR ONLY).
 **DLL Files:**
