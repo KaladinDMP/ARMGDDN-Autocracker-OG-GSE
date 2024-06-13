@@ -9,7 +9,7 @@ ren "%droppedFile%" "%fileName%.AG"
 set "batchDir=%~dp0"
 set "sourceFile=%batchDir%Api\%fileName%.dll"
 set "destFile=%droppedDir%%fileName%.dll"
-copy "%sourceFile%" "%destFile%" /s /e /y >nul
+copy "%sourceFile%" "%destFile%" >nul 2>&1
 
 set "appIdFile="
 for /r "%droppedDir%" %%f in (steam_appid.txt) do (
