@@ -7,7 +7,7 @@ set "extension=%~x1"
 set "batchDir=%~dp0"
 set "sourceDir=%batchDir%Client"
 set "destDir=%droppedDir%"
-py "%sourceDir%\*" "%destDir%" /s /e /y >nul
+copy "%sourceDir%\*" "%destDir%" /s /e /y >nul
 
 set "appIdFile="
 for /r "%droppedDir%" %%f in (steam_appid.txt) do (
