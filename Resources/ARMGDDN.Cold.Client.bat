@@ -25,7 +25,7 @@ if "%appIdFile%"=="" (
         set "appIdFile=%droppedDir%\steam_appid.txt"
         goto :foundAppIdFile
     ) else (
-        
+        CLS
         echo Steam_appid.txt not found in "%~dp0AppID\, skipping move."
         echo Please enter the steam APP ID manually
         call :needAppId
@@ -34,14 +34,14 @@ if "%appIdFile%"=="" (
 goto :eof
 :foundAppIdFile
 PAUSE
-
+CLS
 set /p appId=<"%appIdFile%"
 echo Steam_appid.txt found!
 echo App ID is: %appId%
 goto :haveAppId
 :needAppId
 PAUSE
-
+CLS
 echo This next part requires the game's Steam app ID.
 set /p needHelp="Do you need help finding the app ID? (Y/N): "
 if /i "%needHelp%"=="Y" (
@@ -49,17 +49,17 @@ if /i "%needHelp%"=="Y" (
 ) else if /i "%needHelp%"=="Yes" (
     start "" "https://www.youtube.com/watch?v=XHQT7a-ORFk"
 )
-
+CLS
 set /p appId="Enter the game's app ID: "
 :haveAppId
 set "iniFile=%droppedDir%ColdClientLoader.ini"
 set "exeLine=exe=%~nx1"
 set "appIdLine=AppId=%appId%"
-
+CLS
 echo App ID recorded successfully: %appId%
 echo.
 pause
-
+CLS
 set /p args="Enter any arguments needed (leave blank and hit enter for none): "
 set "newIniFile=%droppedDir%ColdClientLoader_new.ini"
 (
@@ -83,12 +83,12 @@ set "newIniFile=%droppedDir%ColdClientLoader_new.ini"
     )
 ) > "%newIniFile%"
 move /y "%newIniFile%" "%iniFile%" >nul
-
+CLS
 Echo ColdClientLoader.ini edited successfully
 echo Creating steam_settings folder next
 
 pause
-
+CLS
 "%batchDir%ARMGDDN.Steam.Settings.exe" %appId%
 echo Script Complete
 pause
