@@ -18,7 +18,7 @@ ARMGDDN Autocracker seamlessly integrates with your Windows Explorer, offering c
  - **ARMGDDN VD Batmaker:** Generate VD bat files optimized for Virtual Desktop owners (VR ONLY).
 **DLL Files:**
  - **ARMGDDN Autocracker:** Automatically replace the original DLL file (steam_api64.dll or steam_api.dll) with the experimental generic Goldberg Steam emulator.
-- **ARMGDDN Steam Interfaces Maker:** Generate Steam interfaces for the original Steam API DLL files (not the Goldberg one).
+ - **ARMGDDN Steam Interfaces Maker:** Generate Steam interfaces for the original Steam API DLL files (not the Goldberg one).
 
 ### 🖱️ Drag and Drop Support
 In addition to the optional context menu options, ARMGDDN Autocracker supports intuitive drag and drop functionality. Simply drag and drop your EXE or DLL file onto the main executable to initiate the cracking process.  You can only do EXE fixes to EXEs, and DLL fixes on the steam_api DLLs (meaning you can't do both from one drag and drop or one right click context menu).
@@ -37,7 +37,7 @@ With ARMGDDN Autocracker's gentle nudging, you can effortlessly crack any game w
   - Install the context menu options by running ContextMenuRegEdits.exe from the parent directory as an administrator. There's a fast way to safely remove them as well.
   - Alternatively, you can use the drag and drop functionality to avoid modifying the registry.
   - Right-click on an EXE file and select the desired option from the ARMGDDN Autocracker context submenu.
-  - Right-click on a steam_api64.dll or steam_api.dll and select the "ARMGDDN Autocracker" option.
+  - Right-click on a steam_api64.dll or steam_api.dll and select the "Steam Interfaces" or "ARMGDDN Autocracker" option.
   - Follow the on-screen prompts to complete the cracking process.
 
 3. To use the drag and drop functionality:
@@ -64,7 +64,7 @@ ARMGDDN Autocracker is made possible by the following components and tools:
 
 - Goldberg Experimental Steam Emulator by Mr. Goldberg
 - Goldberg Experimental Steamclient Loader by Mr. Goldberg (which is largely based on a  [ColdClient Loader by Rat431 called ColdAPI_Steam](https://www.github.com/Rat431/ColdAPI_Steam/releases/latest))
-- Goldberg Steam Interfacces Generator
+- Goldberg Steam Interfaces Generator
 - A highly edited Goldberg Python script to generate emulator configuration
 - Steamless by Atom0s
 - AppDetails and ISteamApps AppList Steam APIs
