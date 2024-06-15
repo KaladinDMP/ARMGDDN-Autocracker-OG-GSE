@@ -2,6 +2,14 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.0.3 - 6/15/2024**
+Today's update is a small one! We've squashed a pesky bug with the context menu icons and made some significant changes to the location of key files. Let's dive in!
+
+**Highlights**
+- Fixed an issue with the context menu icon for VD.bat not displaying correctly. Now, your context menu looks as polished as ever!
+- Moved `nircmd.exe` to the `Resources/Tools` directory. It's now better organized and easier to find.
+- Added `generate_interfaces_file.exe` to the `Resources/Tools` directory. Remember, you need to create the interface file on a legit Steam API DLL before using the autocracker on the DLL.
+
 
 ## **v1.0.2 - 6/12/2024**
 A small but mighty update! We've ironed out some kinks from the previous version and made sure everything is running smoother than ever. Get ready for an even better ARMGDDN Autocracker experience! Sorry about the last update....
