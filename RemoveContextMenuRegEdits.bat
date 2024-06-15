@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set "scriptDir=%~dp0"
-set "nircmdPath=%scriptDir%Resources\nircmd.exe"
+set "nircmdPath=%scriptDir%Resources\Tools\nircmd.exe"
 if not exist "%nircmdPath%" (
     echo nircmd.exe not found in the Resources directory.
     echo Please ensure nircmd.exe is in the Resources directory.
@@ -29,6 +29,8 @@ echo Removing registry entries...
 "%nircmdPath%" speak text "Removing registry entries."
 reg delete "HKEY_CLASSES_ROOT\dllfile\shell\AutoCracker" /f
 "%nircmdPath%" speak text "Removed the autocracker context menu for steam API dll files"
+reg delete "HKEY_CLASSES_ROOT\dllfile\shell\SteamInterfaces" /f
+"%nircmdPath%" speak text "Removed the autocracker context menu for steam interface from original steam API dll files"
 reg delete "HKEY_CLASSES_ROOT\exefile\shell\AutoCracker" /f
 "%nircmdPath%" speak text "Removed the autocracker context menu for executable files"
 reg delete "HKEY_CLASSES_ROOT\exefile\shell\ColdClient" /f

@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set "scriptDir=%~dp0"
-set "nircmdPath=%scriptDir%Resources\nircmd.exe"
+set "nircmdPath=%scriptDir%Resources\Tools\nircmd.exe"
 if not exist "%nircmdPath%" (
     echo nircmd.exe not found in the Resources directory.
     echo Please ensure nircmd.exe is in the Resources directory.
@@ -28,14 +28,19 @@ if %errorLevel% == 0 (
 set "iconPath=%scriptDir%Resources\ARMGDDN.Autocracker.exe,0"
 set "steamStubIconPath=%scriptDir%Resources\SteamlessCLI\Steamless.CLI.exe,0"
 set "coldClientIconPath=%scriptDir%Resources\ARMGDDN.Cold.Client.exe,0"
-set "v.exeIconPath=%scriptDir%Resources\ARMGDDN.VD.Batmaker.exe,0"
+set "vdbatIconPath=%scriptDir%Resources\ARMGDDN.VD.Batmaker.exe,0"
 set "mainBatPath=%scriptDir%ARMGDDN.Main.exe"
+set "SIToolsPath=%scriptDir%Resources\Tools\generate_interfaces_file.exe"
 echo Adding registry entries...
 "%nircmdPath%" speak text "Adding registry entries to make this easier."
 reg add "HKEY_CLASSES_ROOT\dllfile\shell\AutoCracker" /v "Icon" /t REG_SZ /d "%iconPath%" /f
 reg add "HKEY_CLASSES_ROOT\dllfile\shell\AutoCracker" /ve /t REG_SZ /d "ARMGDDN Autocracker" /f
 reg add "HKEY_CLASSES_ROOT\dllfile\shell\AutoCracker\command" /ve /t REG_SZ /d "\"%mainBatPath%\" \"%%1\"" /f
 "%nircmdPath%" speak text "Added the autocracker context menu for steam API dll files"
+reg add "HKEY_CLASSES_ROOT\dllfile\shell\SteamInterfaces" /v "Icon" /t REG_SZ /d "%coldClientIconPath%" /f
+reg add "HKEY_CLASSES_ROOT\dllfile\shell\SteamInterfaces" /ve /t REG_SZ /d "Steam Interfaces" /f
+reg add "HKEY_CLASSES_ROOT\dllfile\shell\SteamInterfaces\command" /ve /t REG_SZ /d "\"%SIToolsPath%\" \"%%1\"" /f
+"%nircmdPath%" speak text "Added the autocracker context menu for creating steam interface text files"
 reg add "HKEY_CLASSES_ROOT\exefile\shell\AutoCracker" /v "Icon" /t REG_SZ /d "%iconPath%" /f
 reg add "HKEY_CLASSES_ROOT\exefile\shell\AutoCracker" /ve /t REG_SZ /d "ARMGDDN Autocracker" /f
 reg add "HKEY_CLASSES_ROOT\exefile\shell\AutoCracker\command" /ve /t REG_SZ /d "\"%mainBatPath%\" \"%%1\"" /f
