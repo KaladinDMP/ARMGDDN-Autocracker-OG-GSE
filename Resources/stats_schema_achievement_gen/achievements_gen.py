@@ -87,10 +87,10 @@ def generate_stats_achievements(schema, config_directory):
         output_stats += "{}={}={}\n".format(s['name'], s['type'], default_num)
 
     # Optionally, you can log output_ach and output_stats to a file for further inspection
-    with open("debug_achievements.json", 'w') as f:
-        f.write(output_ach)
-    with open("debug_stats.txt", 'w') as f:
-        f.write(output_stats)
+   # with open("debug_achievements.json", 'w') as f:
+   #     f.write(output_ach)
+   # with open("debug_stats.txt", 'w') as f:
+   #     f.write(output_stats)
 
     if not os.path.exists(config_directory):
         os.makedirs(config_directory)
