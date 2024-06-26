@@ -39,8 +39,8 @@ except ImportError as e:
 prompt_for_unavailable = True
 
 if len(sys.argv) < 2:
-    print("\nUsage: {} appid appid appid etc..\n\nExample: {} 480\n".format(sys.argv[0], sys.argv[0]))
-    exit(1)
+    print("\nUsage: ARMGDDN.Steam.Settings.exe APPID \n\nExample:ARMGDDN.Steam.Settings.exe 480\n".format(sys.argv[0], sys.argv[0]))
+    sys.exit(1)
 
 appids = []
 for id in sys.argv[1:]:
@@ -61,7 +61,7 @@ else:
 
         if result == EResult.InvalidPassword:
             print("invalid password, the password you set is wrong.")
-            exit(1)
+            sys.exit(1)
 
         elif result in (EResult.AccountLogonDenied, EResult.InvalidLoginAuthCode):
             prompt = ("Enter email code: " if result == EResult.AccountLogonDenied else
@@ -145,13 +145,17 @@ def generate_achievement_stats(client, game_id, output_directory):
         out = get_stats_schema(client, game_id, x)
         if out is not None:
             if len(out.body.schema) > 0:
-                achievements, stats = achievements_gen.generate_stats_achievements(out.body.schema, output_directory)
-                for ach in achievements:
-                    if "icon" in ach:
-                        images_to_download.append(ach["icon"])
-                    if "icon_gray" in ach:
-                        images_to_download.append(ach["icon_gray"])
-                break
+                try:
+                    achievements, stats = achievements_gen.generate_stats_achievements(out.body.schema, output_directory)
+                    for ach in achievements:
+                        if "icon" in ach:
+                            images_to_download.append(ach["icon"])
+                        if "icon_gray" in ach:
+                            images_to_download.append(ach["icon_gray"])
+                    break
+                except ValueError as e:
+                    print(f"Error generating stats achievements for Steam ID {x}: {e}")
+                    continue
             else:
                 pass
 
@@ -257,7 +261,10 @@ for appid in appids:
 
     if "common" in game_info:
         game_info_common = game_info["common"]
-        generate_achievement_stats(client, appid, out_dir)
+        try:
+            generate_achievement_stats(client, appid, out_dir)
+        except Exception as e:
+            print(f"Unhandled exception during achievement stats generation for appid {appid}: {e}")
 
     with open(os.path.join(out_dir, "steam_appid.txt"), 'w') as f:
         f.write(str(appid))
@@ -265,7 +272,7 @@ for appid in appids:
     dlc_config_list = []
     dlc_list, depot_app_list = get_dlc(game_info)
     dlc_infos_backup = ""
-    if (len(dlc_list) > 0):
+    if len(dlc_list) > 0:
         dlc_raw = client.get_product_info(apps=dlc_list)["apps"]
         for dlc in dlc_raw:
             try:

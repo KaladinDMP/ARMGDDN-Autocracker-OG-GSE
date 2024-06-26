@@ -2,6 +2,17 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.0.4 - 6/25/2024**
+Today's update comes with a crucial fix! We tackled a nasty bug that was causing a crash in some games, with 100% Orange Juice being the main culprit. The `steam_settings` folder was left blank, but not anymore! Plus, a quick update on the health front and plans for the future. Let's get into it!
+
+**Highlights**
+- Fixed an issue in `ARMGDDN.Steam.Settings.py` (this is the edited Goldberg script generate_emu_config.py) and `achievements_gen.py` that caused crashes on some games.
+- Specifically resolved the problem with 100% Orange Juice achievements causing a blank `steam_settings` folder. Now everything should generate correctly!
+
+**Behind the Scenes**
+- Been having some health issues lately, but I'm still determined to work on the Goldberg Steam Emu Fork at some point. Thanks for your patience and understanding!
+
+
 ## **v1.0.3 - 6/15/2024**
 Today's update is a small one! We've squashed a pesky bug with the context menu icons and made some significant changes to the location of key files. Let's dive in!
 
