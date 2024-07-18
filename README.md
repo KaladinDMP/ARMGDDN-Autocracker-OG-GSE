@@ -13,14 +13,14 @@ ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you
 ARMGDDN Autocracker seamlessly integrates with your Windows Explorer, offering convenient context menu commands for both EXE and DLL files.
 
 **EXE Files:**
- - **ARMGDDN Autocracker:** A menu for all the EXE features in case you want to use more than one option.
- - **ARMGDDN Cold Client:** Prepare your Steam game for use with the Cold Client Loader.
- - **ARMGDDN Steam Stub Remover:** Effortlessly check for and remove Steam stubs from your game EXEs.
- - **ARMGDDN VD Batmaker:** Generate VD bat files optimized for Virtual Desktop owners (VR ONLY).
+  - **ARMGDDN Autocracker:** A menu for all the EXE features in case you want to use more than one option.
+  - **ARMGDDN Cold Client:** Prepare your Steam game for use with the Cold Client Loader.
+  - **ARMGDDN Steam Stub Remover:** Effortlessly check for and remove Steam stubs from your game EXEs.
+  - **ARMGDDN VD Batmaker:** Generate VD bat files optimized for Virtual Desktop owners (VR ONLY).
    
 **DLL Files:**
- - **ARMGDDN Autocracker:** Automatically replace the original DLL file (steam_api64.dll or steam_api.dll) with the experimental generic Goldberg Steam emulator.
- - **ARMGDDN Steam Interfaces Maker:** Generate Steam interfaces for the original Steam API DLL files (not the Goldberg one).
+  - **ARMGDDN Autocracker:** Automatically replace the original DLL file (steam_api64.dll or steam_api.dll) with the experimental generic Goldberg Steam emulator.
+  - **ARMGDDN Steam Interfaces Maker:** Generate Steam interfaces for the original Steam API DLL files (not the Goldberg one).
 
 ### 🖱️ Drag and Drop Support
 In addition to the optional context menu options, ARMGDDN Autocracker supports intuitive drag and drop functionality. Simply drag and drop your EXE or DLL file onto the main executable to initiate the cracking process.  You can only do EXE fixes to EXEs, and DLL fixes on the steam_api DLLs (meaning you can't do both from one drag and drop or one right click context menu).
@@ -36,15 +36,15 @@ With ARMGDDN Autocracker's gentle nudging, you can effortlessly crack any game w
 1. Extract ARMGDDN Autocracker to its new "forever home".
 
 2. To use the context menu commands:
-  - Install the context menu options by running ContextMenuRegEdits.exe from the parent directory as an administrator. There's a fast way to safely remove them as well.
-  - Alternatively, you can use the drag and drop functionality to avoid modifying the registry.
-  - Right-click on an EXE file and select the desired option from the ARMGDDN Autocracker context submenu.
-  - Right-click on a steam_api64.dll or steam_api.dll and select the "Steam Interfaces" or "ARMGDDN Autocracker" option.
-  - Follow the on-screen prompts to complete the cracking process.
+   - Install the context menu options by running ContextMenuRegEdits.exe from the parent directory as an administrator. There's a fast way to safely remove them as well.
+   - Alternatively, you can use the drag and drop functionality to avoid modifying the registry.
+   - Right-click on an EXE file and select the desired option from the ARMGDDN Autocracker context submenu.
+   - Right-click on a steam_api64.dll or steam_api.dll and select the "Steam Interfaces" or "ARMGDDN Autocracker" option.
+   - Follow the on-screen prompts to complete the cracking process.
 
 3. To use the drag and drop functionality:
-  - Drag and drop an EXE or DLL file onto the ARMGDDN Main executable.
-  - Follow the on-screen prompts to complete the cracking process.
+   - Drag and drop an EXE or DLL file onto the ARMGDDN Main executable.
+   - Follow the on-screen prompts to complete the cracking process.
 
 4. If the steam_appid.txt file is not automatically detected, ARMGDDN Autocracker will prompt you to enter the game name using the ARMGDDN.App.ID utility. As a fallback, you can enter it manually.
 
@@ -52,10 +52,11 @@ With ARMGDDN Autocracker's gentle nudging, you can effortlessly crack any game w
 
 ## 🛠️ Requirements
 
-- Windows operating system
-- NET Framework 4.5 or higher
-- Basic knowledge of current cracking methods
-- A bit of common sense
+ - Windows operating system
+ - NET Framework 4.5 or higher
+ - Basic knowledge of current cracking methods
+ - A bit of common sense
+ - 
 ## ⚠️ Disclaimer
 
 Please note that cracking and modifying game files may violate the terms of service of the game or the platform it is associated with. Use ARMGDDN Autocracker at your own risk and ensure that you have the necessary permissions and rights to modify the game files. This disclaimer serves as a reminder to use the tool responsibly and in compliance with applicable laws and regulations.
