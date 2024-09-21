@@ -85,7 +85,7 @@ To set up your own ARMGDDN Autocracker, you'll need the Goldberg Steam Emulator,
 
 ## 🌟 Support
 
-If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team, leave an issue here or on our [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
+If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDDNGames). Alternatively, you can reach out to our dedicated support team, leave an issue here or on our [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
 
 ---
 
