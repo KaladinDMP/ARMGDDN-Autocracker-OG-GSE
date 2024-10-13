@@ -1,6 +1,11 @@
 # ARMGDDN Autocracker 🎮🔧
+![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
+[cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
+
 
 Welcome to ARMGDDN Autocracker! Because why waste your time figuring out which file to crack when you can let us sort-of-almost-kind-of do it for you?
+
+ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you crack and prepare Steam games for an unparalleled gaming experience. With its user-friendly interface and powerful features, ARMGDDN Autocracker empowers gamers and enthusiasts to effortlessly unlock the full potential of their favorite games.
 
 **WARNING:** This is not a tool for newbies. Seriously, if you don't know what an EXE or DLL is, you might be in the wrong place. You'll still need to locate that stubborn EXE with its Steam stub, figure out the right Steam API DLL to mess with, and know when to throw in a Cold Client Loader or a VD bat. Oh, and if you don't know what any of that means... good luck!
 
@@ -69,8 +74,10 @@ Sure, we’ve done a lot of the hard work, but here’s where you can find the u
 ## 🌟 Support
 
 If you have questions, or just want to hang out and complain about games, come chat with us:
-- **Telegram**: [https://t.me/ARMGDDNGames](https://t.me/ARMGDDNGames) — Yes, we have Miss Tulip too.
+- **Telegram**: [ARMGDDN Games](https://t.me/ARMGDDNGames) — Yes, we have Miss Tulip too.
+- **Personal Telegram**: [DeliciousMeatPop](https://t.meSickSoThr33)
 - **Reddit**: [u/DeliciousMeatPop](https://www.reddit.com/user/DeliciousMeatPop/)
 - **Discord**: [DeliciousMeatPop](https://discordapp.com/users/191105213808115712)
   
-And remember, if this doesn’t work, it’s probably not our fault. But we might help you out anyway.
+And remember, if this doesn’t work, it’s probably not our fault!
+But we might help you out anyway.
