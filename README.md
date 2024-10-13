@@ -1,89 +1,76 @@
 # ARMGDDN Autocracker 🎮🔧
 
-![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
-[cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
+Welcome to ARMGDDN Autocracker! Because why waste your time figuring out which file to crack when you can let us sort-of-almost-kind-of do it for you?
 
-ARMGDDN Autocracker is a cutting-edge tool designed to revolutionize the way you crack and prepare Steam games for an unparalleled gaming experience. With its user-friendly interface and powerful features, ARMGDDN Autocracker empowers gamers and enthusiasts to effortlessly unlock the full potential of their favorite games. 
-
-**WARNING:** This is not a tool for amateurs but rather a tool to make the methods easier for those with a general knowledge of these techniques. You will still need to find the EXE that needs its Steam stub removed, the Steam API DLL that needs cracking, and know when and where a Cold Client Loader or a VD bat is needed or a steam interfaces file needs to be created.
+**WARNING:** This is not a tool for newbies. Seriously, if you don't know what an EXE or DLL is, you might be in the wrong place. You'll still need to locate that stubborn EXE with its Steam stub, figure out the right Steam API DLL to mess with, and know when to throw in a Cold Client Loader or a VD bat. Oh, and if you don't know what any of that means... good luck!
 
 ## ✨ Features
 
 ### 🖱️ Context Menu Integration
-ARMGDDN Autocracker seamlessly integrates with your Windows Explorer, offering convenient context menu commands for both EXE and DLL files.
+Now, you can clutter your Windows Explorer with even more right-click options. Why do things manually when you can automate confusion with:
+
 **EXE Files:**
- - **ARMGDDN Autocracker:** A menu for all the EXE features in case you want to use more than one option.
- - **ARMGDDN Cold Client:** Prepare your Steam game for use with the Cold Client Loader.
- - **ARMGDDN Steam Stub Remover:** Effortlessly check for and remove Steam stubs from your game EXEs.
- - **ARMGDDN VD Batmaker:** Generate VD bat files optimized for Virtual Desktop owners (VR ONLY).
+  - **ARMGDDN Autocracker:** The buffet option—use one or many features, depending on your mood.
+  - **ARMGDDN Cold Client:** For when you need to chill... or prepare your game for Cold Client Loader.
+  - **ARMGDDN Steam Stub Remover:** Because Steam stubs are overrated.
+  - **ARMGDDN VD Batmaker:** For all your Virtual Desktop (VR ONLY) needs—now in bat format!
+
 **DLL Files:**
- - **ARMGDDN Autocracker:** Automatically replace the original DLL file (steam_api64.dll or steam_api.dll) with the experimental generic Goldberg Steam emulator.
- - **ARMGDDN Steam Interfaces Maker:** Generate Steam interfaces for the original Steam API DLL files (not the Goldberg one).
+  - **ARMGDDN Autocracker:** Replaces your original Steam API DLL with the Goldberg Emulator. Fancy, right?
+  - **ARMGDDN Steam Interfaces Maker:** Generates those lovely Steam interfaces for when you need to keep things OG (original DLL only, hope you kept it!).
 
 ### 🖱️ Drag and Drop Support
-In addition to the optional context menu options, ARMGDDN Autocracker supports intuitive drag and drop functionality. Simply drag and drop your EXE or DLL file onto the main executable to initiate the cracking process.  You can only do EXE fixes to EXEs, and DLL fixes on the steam_api DLLs (meaning you can't do both from one drag and drop or one right click context menu).
+Why waste precious clicks when you can just throw your EXE or DLL onto the main executable and hope for the best? Remember: EXE fixes only on EXEs, DLL fixes only on steam_api DLLs. If you try to do both at once, prepare to face judgment (and an error).
 
 ### 🔍 Steam App ID Detection
-ARMGDDN Autocracker intelligently searches for the steam_appid.txt file in the directory of the dropped file. If found, it automatically copies the file to the appropriate location. If the steam_appid.txt file is not detected, ARMGDDN Autocracker prompts you to enter the game name using the ARMGDDN.App.ID utility. In case the app ID is still not found, you have the flexibility to enter it manually.
+ARMGDDN Autocracker will hunt for that elusive steam_appid.txt like a bloodhound. If it finds it, it’ll even copy it where it thinks it should go. If it can’t find it, you’ll get a polite nudge to enter the game name using our ARMGDDN.App.ID utility. And if that still doesn’t work, just type it in yourself. We believe in you. But not much, there is a tutorial video to watch if you need help.
 
 ### 🔓 Comprehensive Cracking
-With ARMGDDN Autocracker's gentle nudging, you can effortlessly crack any game with basic Steam DRM. Say goodbye to the need for additional tools or complex procedures and enjoy a seamless gaming experience.
+Forget struggling with Steam DRM—let ARMGDDN Autocracker do the struggling for you. You’ll still need a brain, but at least you won’t need 14 different tools to get one game running.
 
 ## 📖 Usage
 
-1. Extract ARMGDDN Autocracker to its new "forever home".
-
-2. To use the context menu commands:
-  - Install the context menu options by running ContextMenuRegEdits.exe from the parent directory as an administrator. There's a fast way to safely remove them as well.
-  - Alternatively, you can use the drag and drop functionality to avoid modifying the registry.
-  - Right-click on an EXE file and select the desired option from the ARMGDDN Autocracker context submenu.
-  - Right-click on a steam_api64.dll or steam_api.dll and select the "Steam Interfaces" or "ARMGDDN Autocracker" option.
-  - Follow the on-screen prompts to complete the cracking process.
-
-3. To use the drag and drop functionality:
-  - Drag and drop an EXE or DLL file onto the ARMGDDN Main executable.
-  - Follow the on-screen prompts to complete the cracking process.
-
-4. If the steam_appid.txt file is not automatically detected, ARMGDDN Autocracker will prompt you to enter the game name using the ARMGDDN.App.ID utility. As a fallback, you can enter it manually.
-
-5. Enjoy your cracked games and embark on thrilling adventures!
+1. Extract ARMGDDN Autocracker to its forever home (or just wherever you have space left).
+2. Install the context menu commands with the magical *ContextMenuRegEdits.exe*. This does modify your registry, but hey, what's life without a little risk?
+3. Or, skip all that and drag your file over to the executable like a true rebel.
+4. Click around, follow the prompts, and pray it works.
+5. If the steam_appid.txt is playing hide-and-seek, ARMGDDN will nag you until you provide the right info.
+6. Bask in the glory of your cracked game library.
 
 ## 🛠️ Requirements
 
-- Windows operating system
-- NET Framework 4.5 or higher
-- Basic knowledge of current cracking methods
-- A bit of common sense
+ - Windows OS (unless you like pain)
+ - NET Framework 4.5 or higher (because old tech is boring)
+ - A basic understanding of how to crack things (we’re not talking eggs here)
+ - Common sense (don’t ask where to download that)
+
 ## ⚠️ Disclaimer
 
-Please note that cracking and modifying game files may violate the terms of service of the game or the platform it is associated with. Use ARMGDDN Autocracker at your own risk and ensure that you have the necessary permissions and rights to modify the game files. This disclaimer serves as a reminder to use the tool responsibly and in compliance with applicable laws and regulations.
+Hey, we’re not responsible if you use this tool for nefarious purposes or break some Terms of Service. Remember, use it responsibly, or at least don’t tell us if you don’t.
 
 ## 🙏 Acknowledgements
 
-ARMGDDN Autocracker is made possible by the following components and tools:
+Big thanks to the following folks:
+- **Goldberg** for his Steam Emulator and Steam Settings Config Generator, which we *totally* didn’t modify to fit our needs.
+- **ColdClient Loader by Rat431**: Making cold loading cooler.
+- **Steamless by Atom0s**: Because who likes things with steam stubs anyway?
+- **Sak32009**: For the latest Steam client updates from [here](https://github.com/Sak32009/steam_py_fork.git@fix-cm-servers), making our ARMGDDN.Steam.Settings.exe faster than ever. Seriously, it’s like it’s on caffeine now.
+- And, of course, **George Jefferson** for his endless support and for pointing out all my mistakes.
 
-- Goldberg Experimental Steam Emulator by Mr. Goldberg
-- Goldberg Experimental Steamclient Loader by Mr. Goldberg (which is largely based on a  [ColdClient Loader by Rat431 called ColdAPI_Steam](https://www.github.com/Rat431/ColdAPI_Steam/releases/latest))
-- Goldberg Steam Interfaces Generator
-- A highly edited Goldberg Python script to generate emulator configuration
-- Steamless by Atom0s
-- AppDetails and ISteamApps AppList Steam APIs
+## 💡 Getting the Parts You Need
 
-ARMGDDN Autocracker is proudly developed by DeliciousMeatPop and George Jefferson, the owners of ARMGDDN Games. George Jefferson wrote the App ID Python script and provided moral support and invaluable insight into testing the program, while DeliciousMeatPop made the heavy mistakes.
+Sure, we’ve done a lot of the hard work, but here’s where you can find the unedited versions if you want to tinker:
 
-## 💡 Where to get the required components
-To set up your own ARMGDDN Autocracker, you'll need the Goldberg Steam Emulator, the Goldberg Cold Client Loader, a highly edited Goldberg Python Steam App ID fetching script, and the Steamless program. Here are the locations where you can find these components without our edits:
-
-- Goldberg Experimental Steam Emulator: [https://gitlab.com/Mr_Goldberg/goldberg_emulator](https://gitlab.com/Mr_Goldberg/goldberg_emulator)
-- Goldberg Experimental Steamclient Loader: [https://gitlab.com/Mr_Goldberg/goldberg_emulator](https://gitlab.com/Mr_Goldberg/goldberg_emulator)
-- The unedited Goldberg Python script: [https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/tree/master/scripts](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/tree/master/scripts)
-- Goldberg Steam Interfaces Generator [https://gitlab.com/Mr_Goldberg/goldberg_emulator](https://gitlab.com/Mr_Goldberg/goldberg_emulator)
-- Steamless: [https://github.com/atom0s/Steamless](https://github.com/atom0s/Steamless)
+- **Goldberg Steam Emulator**: [Find it here](https://gitlab.com/Mr_Goldberg/goldberg_emulator)
+- **Goldberg Python Script**: [Right over here](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/tree/master/scripts)
+- **Steamless**: [Get it while it's hot](https://github.com/atom0s/Steamless)
+- **Sak32009s Steam Module Fork**:[A lifesaver this man is, get it here](https://github.com/Sak32009/steam_py_fork.git@fix-cm-servers)
 
 ## 🌟 Support
 
-If you encounter any issues, have questions, or want to connect with fellow gamers, join our vibrant support channel at [https://t.me/ARMGDDNGames](https://t.me/ARMGDNGames). Alternatively, you can reach out to our dedicated support team, leave an issue here or on our [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
-
----
-
-Thank you for choosing ARMGDDN Autocracker. May your gaming adventures be filled with excitement and endless possibilities! 🚀🎉
+If you have questions, or just want to hang out and complain about games, come chat with us:
+- **Telegram**: [https://t.me/ARMGDDNGames](https://t.me/ARMGDDNGames) — Yes, we have Miss Tulip too.
+- **Reddit**: [u/DeliciousMeatPop](https://www.reddit.com/user/DeliciousMeatPop/)
+- **Discord**: [DeliciousMeatPop](https://discordapp.com/users/191105213808115712)
+  
+And remember, if this doesn’t work, it’s probably not our fault. But we might help you out anyway.
