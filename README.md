@@ -59,7 +59,7 @@ Big thanks to the following folks:
 - **Goldberg** for his Steam Emulator and Steam Settings Config Generator, which we *totally* didn’t modify to fit our needs.
 - **ColdClient Loader by Rat431**: Making cold loading cooler.
 - **Steamless by Atom0s**: Because who likes things with steam stubs anyway?
-- **Sak32009**: For the latest Steam client updates from [here](https://github.com/Sak32009/steam_py_fork.git@fix-cm-servers), making our ARMGDDN.Steam.Settings.exe faster than ever. Seriously, it’s like it’s on caffeine now.
+- **Sak32009**: For the latest Steam client updates from [here](https://github.com/Sak32009/steam_py_fork/tree/fix-cm-servers), making our ARMGDDN.Steam.Settings.exe faster than ever. Seriously, it’s like it’s on caffeine now.
 - And, of course, **George Jefferson** for his endless support and for pointing out all my mistakes.
 
 ## 💡 Getting the Parts You Need
@@ -69,7 +69,7 @@ Sure, we’ve done a lot of the hard work, but here’s where you can find the u
 - **Goldberg Steam Emulator**: [Find it here](https://gitlab.com/Mr_Goldberg/goldberg_emulator)
 - **Goldberg Python Script**: [Right over here](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/tree/master/scripts)
 - **Steamless**: [Get it while it's hot](https://github.com/atom0s/Steamless)
-- **Sak32009s Steam Module Fork**:[A lifesaver this man is, get it here](https://github.com/Sak32009/steam_py_fork.git@fix-cm-servers)
+- **Sak32009s Steam Module Fork**:[A lifesaver this man is, get it here](https://github.com/Sak32009/steam_py_fork/tree/fix-cm-servers)
 
 ## 🌟 Support
 
