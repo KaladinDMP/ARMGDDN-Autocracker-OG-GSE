@@ -2,6 +2,35 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.1.0 - 5/11/2025** 
+It’s here — the  v1.1.0 update! We've been needing this one for a while, and it comes packed with more intelligence, stability, and future-proofing for ARMGDDN.Steam.Settings.exe.  
+
+We’ve tapped into the [SteamLadder](https://steamladder.com/) API to make sure you’re always ahead of the curve when it comes to achievements and DLC recognition — especially for new releases. Plus, we cleaned up some quirks and made sure those pesky 0KB files don't clutter your setup anymore.  
+
+**Highlights**  
+- 🔥 **Steam ID Auto-Updater:** ARMGDDN.Steam.Settings.exe now checks the top 20 Steam accounts that own the most games globally via [SteamLadder](https://steamladder.com/) once a week (powered by GitHub Actions in [another repo of mine](https://github.com/KaladinDMP/steam-top-accounts-data)).  
+- 📦 **Hardcoded List Expansion:** Top users’ game libraries are scanned and cross-checked. If any Steam IDs are missing from the massive internal list, they’re added automatically.  
+- 🧠 **Better DLC/Achievements Support:** This should significantly improve detection for DLC and achievements, especially in newer or frequently updated games.  
+- 🧹 **0KB File Prevention:** `dlc.txt` and `stats.txt` will no longer be generated as empty files. If there’s nothing to write, nothing gets created — simple and clean.  
+
+**Notes**  
+- Apologies for the delay — we know updates have been a long time coming.  
+- Seriously considering finally doing a proper ARMGDDN Autocracker version based on the latest [GBE fork](https://github.com/Detanup01/gbe_fork). If we do, it’ll be a big step forward.
+
+**Acknowledgements**  
+- Huge shoutout to the SteamLadder team for their open API.  
+- Thanks again to Sak32009, whose earlier fork kicked off this speed-focused era of improvements.
+
+## **v1.0.5 - 10/13/2024**
+This update brings a significant speed boost to the steam settings generation process, thanks to a fantastic steam module fork from Sak32009!!
+
+**Highlights**
+- Integrated [Sak32009's Steam Module fork](https://github.com/Sak32009/steam_py_fork/tree/fix-cm-servers) to compile the ARMGDDN.Steam.Settings exe.
+- This change has GREATLY increased the speed at which a steam settings folder is created.
+
+**Acknowledgements**
+- Special thanks to [Sak32009](https://github.com/Sak32009/) for their invaluable contribution!
+
 ## **v1.0.4 - 6/25/2024**
 Today's update comes with a crucial fix! We tackled a nasty bug that was causing a crash in some games, with 100% Orange Juice being the main culprit. The `steam_settings` folder was left blank, but not anymore! Plus, a quick update on the health front and plans for the future. Let's get into it!
 
