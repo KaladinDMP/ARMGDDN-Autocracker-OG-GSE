@@ -4,31 +4,21 @@ import json
 import time
 import requests
 
-try:
-    import nltk
-    from nltk.tokenize import word_tokenize
-    from nltk.corpus import stopwords
-    nltk_available = True
-except ImportError:
-    nltk_available = False
-
-if nltk_available:
-    nltk.download('punkt')
-    nltk.download('stopwords')
-
 
 def preprocess_game_name(game_name: str) -> str:
+    """Lightweight game name cleaner compatible with GitHub Actions."""
     if not isinstance(game_name, str):
         return ""
+    
+    # Keep only alphanumeric + space
+    cleaned = ''.join(ch for ch in game_name if ch.isalnum() or ch.isspace())
+    cleaned = cleaned.lower().strip()
+    
+    # Optional: remove common filler words (stop words)
+    stop_words = {"the", "a", "an", "of", "and", "in", "for", "to"}
+    tokens = cleaned.split()
+    filtered = [t for t in tokens if t not in stop_words]
 
-    game_name = ''.join(ch for ch in game_name if ch.isalnum() or ch.isspace())
-
-    if not nltk_available:
-        return game_name.lower().strip()
-
-    tokens = word_tokenize(game_name)
-    stop_words = set(stopwords.words('english'))
-    filtered = [w.lower() for w in tokens if w.isalnum() and w.lower() not in stop_words]
     return " ".join(filtered)
 
 
@@ -87,7 +77,7 @@ def build_app_dict(apps):
         if not appid or not name:
             continue
         appid_str = str(appid)
-        processed = preprocess_game_name(name)
+        processed_name = preprocess_game_name(name[:100]) 
         app_dict[appid_str] = {
             "original_name": name,
             "processed_name": processed
