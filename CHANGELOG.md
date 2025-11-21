@@ -2,6 +2,22 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.2.0 - 11/20/2025**
+A big one today — and a huge step toward making ARMGDDN Autocracker truly future-proof.  
+The `steam_app_dict.json` no longer depends on Steam’s unstable API — instead, it is now **fully automated via GitHub Actions**, pulled directly into the app once per day, keeping the game list fresh without ever shipping a key or making risky API calls on the user’s machine. Truly hands-off, fully secure, and built to last.
+
+**Highlights**
+- 🔁 **Fully Automated App List Updates:** `ARMGDDN.AppID.exe` now updates the massive internal Steam game dictionary once per day directly from GitHub — no API calls and **no user internet keys needed.**
+- 🚀 **GitHub Actions Support:** A dedicated GitHub workflow fetches over 200K Steam apps using the store API, cleans them, and commits a fresh `steam_app_dict.json` once per day — all without touching a local PC.
+- 🧠 **Zero External Dependencies:** Removed heavy NLTK from the user-side exe, making it lighter, faster, and easier to compile.
+- 🔒 **100% Offline Operation:** The program can now fully operate offline using cached data. If a dictionary cannot be downloaded, the app still works normally using the local copy.
+- 🧱 **Cleaner & Safer EXE Builds:** `ARMGDDN.AppID.exe` was fully restructured to use relative paths, detect EXE mode, and save all files next to the executable for plug-and-play portability on **any PC.**
+- 📁 **Local JSON Storage:** Database files (`steam_appid.txt`, `steam_app_dict.json`, `non_game_apps.json`) are always stored next to the exe—ready for future tools or integrations.
+
+**Acknowledgements**
+- Thanks to nothingmore from RIN who caught the 404 from using the old app v2 app list (https://api.steampowered.com/ISteamApps/GetAppList/v2/)
+- Major shoutout to GitHub Actions for silently doing 200K+ API calls daily so users don’t have to.
+
 ## **v1.1.0 - 5/11/2025** 
 It’s here — the  v1.1.0 update! We've been needing this one for a while, and it comes packed with more intelligence, stability, and future-proofing for ARMGDDN.Steam.Settings.exe.  
 
@@ -85,3 +101,4 @@ The day it all began! v1.0.0.0 burst onto the scene, marking the birth of ARMGDD
 - Everything! It's the initial release, after all. 😄
 
 So, there you have it, folks! The ARMGDDN Autocracker Changelog, where we chronicle the ups, the downs, and the occasional sideways maneuvers of our beloved program. Stay tuned for more thrilling updates as we continue to shape the future of ARMGDDN Autocracker!
+
