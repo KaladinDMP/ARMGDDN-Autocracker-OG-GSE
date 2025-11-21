@@ -76,12 +76,15 @@ def build_app_dict(apps):
         name = app.get("name")
         if not appid or not name:
             continue
+
         appid_str = str(appid)
-        processed_name = preprocess_game_name(name[:100]) 
+        processed_name = preprocess_game_name(name[:100])
+
         app_dict[appid_str] = {
             "original_name": name,
-            "processed_name": processed
+            "processed_name": processed_name
         }
+
         if i % 20000 == 0:
             print(f"Processed {i}/{total} apps...")
 
