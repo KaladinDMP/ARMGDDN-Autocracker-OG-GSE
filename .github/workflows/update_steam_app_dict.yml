@@ -37,10 +37,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # If you keep the JSON at repo root:
-          git add steam_app_dict.json
+          # git add steam_app_dict.json
 
           # Or if you decide to store it next to the script:
-          # git add Resources/AppID/steam_app_dict.json
+          git add Resources/AppID/steam_app_dict.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
