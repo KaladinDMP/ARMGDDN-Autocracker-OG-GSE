@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests nltk
+          pip install requests
 
       - name: Run updater script
         env:
