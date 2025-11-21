@@ -29,7 +29,7 @@ jobs:
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: |
-          python update_steam_app_dict.py
+          python Resources/AppID/update_steam_app_dict.py
 
       - name: Commit and push if changed
         run: |
