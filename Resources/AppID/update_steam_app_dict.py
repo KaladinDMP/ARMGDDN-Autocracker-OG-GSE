@@ -105,7 +105,7 @@ def main():
 
     app_dict = build_app_dict(apps)
 
-    out_file = "steam_app_dict.json"
+    out_file = os.path.join("Resources", "AppID", "steam_app_dict.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(app_dict, f)
 
