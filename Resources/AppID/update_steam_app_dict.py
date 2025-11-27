@@ -6,15 +6,12 @@ import requests
 
 
 def preprocess_game_name(game_name: str) -> str:
-    """Lightweight game name cleaner compatible with GitHub Actions."""
     if not isinstance(game_name, str):
         return ""
     
-    # Keep only alphanumeric + space
     cleaned = ''.join(ch for ch in game_name if ch.isalnum() or ch.isspace())
     cleaned = cleaned.lower().strip()
     
-    # Optional: remove common filler words (stop words)
     stop_words = {"the", "a", "an", "of", "and", "in", "for", "to"}
     tokens = cleaned.split()
     filtered = [t for t in tokens if t not in stop_words]
@@ -33,10 +30,6 @@ def fetch_all_apps(steam_api_key: str):
         params = {
             "key": steam_api_key,
             "include_games": 1,
-            "include_dlc": 1,
-            "include_software": 1,
-            "include_videos": 1,
-            "include_hardware": 1,
             "last_appid": last_appid,
             "max_results": max_results,
         }
