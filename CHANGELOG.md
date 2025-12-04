@@ -2,6 +2,16 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.2.1 - 12/4/2025**
+Quick bugfix release to address a crash reported by the community.
+
+**Highlights**
+- 🐛 **Fixed AttributeError Crash:** Resolved a crash in `ARMGDDN.Steam.Settings.exe` that occurred when Steam's CDN reset connections during achievement image downloads.
+- 🔧 **Corrected Exception Handling:** `URLError` uses `.reason`, not `.code` (which only exists on `HTTPError`). This was causing crashes when connection resets occurred.
+
+**Acknowledgements**
+- Thanks to the [user l95RHl](https://github.com/l95RHl),  who reported this [issue](https://github.com/KaladinDMP/ARMGDDN-Autocracker-OG-GSE/issues/1) on GitHub!
+
 ## **v1.2.0 - 11/20/2025**
 A big one today — and a huge step toward making ARMGDDN Autocracker truly future-proof.  
 The `steam_app_dict.json` no longer depends on Steam’s unstable API — instead, it is now **fully automated via GitHub Actions**, pulled directly into the app once per day, keeping the game list fresh without ever shipping a key or making risky API calls on the user’s machine. Truly hands-off, fully secure, and built to last.
