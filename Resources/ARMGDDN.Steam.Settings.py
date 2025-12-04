@@ -458,12 +458,12 @@ def download_achievement_images(game_id, image_names, output_folder):
                 except urllib.error.HTTPError as e:
                     print("HTTPError downloading", url, e.code)
                 except urllib.error.URLError as e:
-                    print("URLError downloading", url, e.code)
+                    print("URLError downloading", url, e.reason)
             if not succeeded:
                 print("error could not download", name)
             q.task_done()
 
-    num_threads = 20
+    num_threads = 10
     for i in range(num_threads):
         threading.Thread(target=downloader_thread, daemon=True).start()
 
