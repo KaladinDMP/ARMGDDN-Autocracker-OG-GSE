@@ -2,6 +2,20 @@
 
 Welcome to the ARMGDDN Autocracker Changelog! Here, we chronicle the thrilling journey of our beloved program as it evolves and grows. Get ready for a wild ride filled with bug fixes, new features, and the occasional twist and turn!
 
+## **v1.2.2 - 12/5/2025**
+Another quick fix — turns out yesterday's build was missing some critical files.
+
+**Highlights**
+- 📦 **Fixed Missing Module Error:** Resolved `ModuleNotFoundError: No module named 'stats_schema_achievement_gen'` that occurred in the v1.2.1 compiled exe.
+- 🔧 **Proper PyInstaller Packaging:** Added `stats_schema_achievement_gen` and `controller_config_generator` folders as additional data in the build process — they weren't being bundled correctly.
+- 🔢 **Version Bump:** Updated `ARMGDDN.Main.exe` to display v1.2.2.
+
+**What Happened**
+The v1.2.1 fix was correct in the source code, but when compiling to exe, PyInstaller didn't automatically include the local module folders. The script runs fine as `.py` but the exe couldn't find the modules at runtime.
+
+**Acknowledgements**
+- Thanks again to [l95RHl](https://github.com/l95RHl) for the continued testing and patience!
+
 ## **v1.2.1 - 12/4/2025**
 Quick bugfix release to address a crash reported by the community.
 
