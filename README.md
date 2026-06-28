@@ -12,7 +12,7 @@ Thanks to everyone who has supported the project along the way. i really appreci
 
 
 <details>
-<summary>Info</summary>
+<summary>Info for the OG branch version for posterity</summary>
 
 ![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
 [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
