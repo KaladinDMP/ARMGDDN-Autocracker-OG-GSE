@@ -1,4 +1,19 @@
 # ARMGDDN Autocracker 🎮🔧
+
+Unfortunately, my original plan was to maintain both an original version and a fork, but i just never found myself going back to the original. I've been using the fork exclusively and, at this point, i don't really see a reason to maintain two separate projects.
+
+It was an ambitious idea, but i simply never had the time to make it a reality.
+
+Because of that, i'm archiving this repository and will be focusing all future development on the GSE fork, which will soon be rebranded as simply **ARMGDDN Autocracker**.
+
+In the near future, i'll likely remove the remaining references to the original GSE version as part of that transition. For now, though, this repository will remain archived.
+
+Thanks to everyone who has supported the project along the way. i really appreciate it.
+
+
+<details>
+<summary>Info</summary>
+
 ![ARMGDDN Autocracker Logo](https://github.com/KaladinDMP/ARMGDDN-Autocracker/assets/92135051/ebcf7a21-8e5d-44e2-9165-cb280d8d275c)
 [cs.rin.ru introduction page](https://cs.rin.ru/forum/viewtopic.php?f=20&t=141375)
 
@@ -84,3 +99,5 @@ If you have questions, or just want to hang out and complain about games, come c
   
 And remember, if this doesn’t work, it’s probably not our fault!
 But we might help you out anyway.
+
+</details>
